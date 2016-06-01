@@ -22,7 +22,7 @@ public class Perceptron {
 					w[0][1] = w[0][1] + posQuantity[i][1];
 					w[0][2] = w[0][2] + posQuantity[i][2];
 					flag = true;
-					countIterations++;
+					//countIterations++;
 				}	
 			}
 			
@@ -33,9 +33,10 @@ public class Perceptron {
 					w[0][1] = w[0][1] - negQuantity[k][1];
 					w[0][2] = w[0][2] - negQuantity[k][2];
 					flag = true;
-					countIterations++;
+					//countIterations++;
 				}
 			}
+			countIterations++;
 		} while(flag == true);
 		System.out.println("\n\nGewichtsvektor: " + w[0][0] + " / " + w[0][1] + " / " + w[0][2]);
 		System.out.println("Anzahl Iterationen: " + countIterations);
