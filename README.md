@@ -4,7 +4,7 @@ This is a implementation of a Perceptron. The algorithm is described in this boo
 
 ## Installing / Getting started
 
-Import this reporistory as a new project in eclipse.
+Import this repository as a new project in eclipse.
 
 ## Author
 Christian Högerle 
